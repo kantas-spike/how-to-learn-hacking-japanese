@@ -1,4 +1,4 @@
-# ハッキングの学び方(How To Learn Hacking)
+# ハッキングの学び方([How To Learn Hacking](http://www.catb.org/~esr/faqs/hacking-howto.html))
 
 Eric Steven Raymond
 [Thyrsus Enterprises](http://catb.org/~esr/)
