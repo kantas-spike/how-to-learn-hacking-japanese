@@ -7,6 +7,19 @@ Eric Steven Raymond
 
 Copyright 2014 Eric S. Raymond
 
+---
+
+|Revision History|    |   |
+|:---------------|:--:|:--:|
+|Revision 1.2    | 2014-11-30| esr |
+|New section on being original.| | |
+|Revision 1.1    | 2014-11-23 | esr |
+| Incorporated feedback from G+, including good suggestions by Peter da Silva and John D. Bell.| | |
+|Revision 1.0 | 2014-11-21 | esr |
+| Initial version | | |
+
+---
+
 <!--
 ## Table of Contents
 - [What is Hacking?](#what-is-hacking)
@@ -15,12 +28,14 @@ Copyright 2014 Eric S. Raymond
 - [Developing Your Design Sense](#developing-your-design-sense)
 - [Being original](#being-original)
  -->
+
+目次
 - [ハッキングの学び方(How To Learn Hacking)](#ハッキングの学び方how-to-learn-hacking)
   - [ハッキングって何ですか?](#ハッキングって何ですか)
   - [ハッキングの学習段階](#ハッキングの学習段階)
   - [インクリメンタル ハッキングサイクル](#インクリメンタル-ハッキングサイクル)
   - [デザインセンスを磨く](#デザインセンスを磨く)
-  - [独創的であるこ](#独創的であるこ)
+  - [独創的であること](#独創的であること)
 
 <!--
 ## What is Hacking?
@@ -32,7 +47,7 @@ The “hacking” we'll be talking about in this document is exploratory program
 If you think “hacking” has anything to do with computer crime or security breaking and came here to learn that, you can go away now. There's nothing for you here.
  -->
 この文書で話題にする「ハッキング」は、オープンソース環境での探索的プログラミングのことです。
-もし、「ハッキング」をコンピュータ犯罪やセキュリティ破りと関係があると思って、ここに学びに来たのなら、もう帰っていいです。ここに、あなが望むものはありません。
+もし、「ハッキング」をコンピュータ犯罪やセキュリティ破りと関係があると思って、ここに学びに来たのなら、もう帰っていいです。ここに、あなたが望むものはありません。
 
 <!--
 Translations of this document are available in: Hungarian
@@ -59,7 +74,7 @@ Note that one can be doing hacking without being a hacker.
  -->
  ハッカーにならなくても、ハッキングをすることは可能です。
 「ハッキング」とは、広い意味で、方法やスタイルを表す言葉です。
-「ハッカー」は、ハッキングすること、そして、ハッキングの文化や歴史的伝統に愛着があること、を意味します。
+「ハッカー」は、ハッキングすること、そして、[ハッキングの文化](http://catb.org/~esr/faqs/hacker-howto.html)や歴史的伝統に愛着があること、を意味します。
 正しくは、「ハッカー」は他のハッカーたちから贈られる敬称です。
 
 <!--
@@ -127,8 +142,8 @@ The hacking equivalent of fingering is learning the capabilities of programming 
 We won't cover those mechanics here as they vary too much according to what language you're using.
 Tutorials for all the languages you might want to use are available on the Web; use a search engine.
  -->
-「楽器の指使いの学習」は、ハッキングでは、プログラミング言語の機能や、エディタ、インタプリター、やコンパイラなどのツールの使い方を学ぶことに相当します。
-(もし、これらの用語を知らないのなら、「ザ UNIXアンドインターネットファンダメンタルズハウツー」を参照してください。)
+「楽器の指使いの学習」は、ハッキングでは、プログラミング言語の機能や、エディタ、インタプリターや、コンパイラなどのツールの使い方を学ぶことに相当します。
+(もし、これらの用語を知らないのなら、「[ザ UNIXアンドインターネットファンダメンタルズハウツー](https://tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/index.html)」を参照してください。)
 
 使用する言語によって大きく異なるので、これらの仕組みはここでは説明しません。
 あなたが使いたいと思う言語のチュートリアルはウェブ上で利用できます。検索してください。
@@ -137,7 +152,7 @@ Tutorials for all the languages you might want to use are available on the Web; 
 The equivalent of playing scales is writing small programs, alone. Unfortunately, playing scales (a) doesn't teach you anything about music, and (b) is boring as hell. Similarly, writing toy programs doesn't tend to teach you much about hacking, and (b) will tend to de-motivate you unless the program immediately solves a problem you care about.
  -->
 「音階を弾くこと」は、一人で小さなプログラムを書くことに相当します。
-残念ながら、「音階を弾くこと」は (a) 音楽について何も教しえてくれませんし、(b) 地獄のように退屈です。
+残念ながら、「音階を弾くこと」は (a) 音楽について何も教えてくれませんし、(b) 地獄のように退屈です。
 同様に、おもちゃのプログラムを書いても、(a) ハッキングの勉強にならないし、(b) そのプログラムが、自分が関心のある問題をすぐに解決しない限り、やる気をなくしがちです。
 
 <!--
@@ -163,7 +178,7 @@ The program you choose doesn't have to do anything serious. Many programmers hav
  For this reason, you may want to investigate one of the classic text-oriented games that still survive; nethack is a prime example, and there are many others.
 
  -->
-1. 最初に、あたなが興味のある機能を持つプログラムを選びます。理想的には、あなたが普段から使い、意見を持つプログラムです。そうでなければ、普段は使っていないけれど、興味のある機能があるプログラムです。この学習方法を精巧されるためには、退屈なコードをハックしようとするのは避けるべきです。
+1. 最初に、あなたが興味のある機能を持つプログラムを選びます。理想的には、あなたが普段から使い、意見を持つプログラムです。そうでなければ、普段は使っていないけれど、興味のある機能を持つプログラムです。この学習方法を成功させるためには、退屈なコードをハックしようとするのは避けるべきです。
 
    選ぶプログラムは本格的なものである必要はないです。多くのプログラマは、自分が楽しんだゲームを改良することで技術を磨いてきました。唯一の欠点は、最近のゲームはかなり大規模で複雑なものが多く、本当の初心者には手に負えないかもしれないです。
    そのため、今でも生き残っているクラシックなテキスト指向のゲームについて調べるのもよいでしょう。「ネットハック」はその代表例ですし、ほかにも沢山あります。
@@ -196,14 +211,14 @@ The program you choose doesn't have to do anything serious. Many programmers hav
 
 5. コードを変更し、テストし、デバッグし、変更内容を文書化しましょう
 
-   変更の文書化を重要です。もし、早くからこの習慣を身につけることで、より質の高い仕事ができるようになるでしょう。
+   変更の文書化は重要です。もし、早くからこの習慣を身につけることで、より質の高い仕事ができるようになるでしょう。
 
 <!--
 1. Send your change as a patch to the program maintainers. See the Software Release Practice HOWTO for tips on how to do this in an effective and polite way.
   I originally described this as an optional step; a wise friend pointed out that probably I shouldn't have. Solitary noodling on your instrument is all very well for practice, but music is completed and validated when the creativity in it is heard by other people. Solitary noodling on your computer is similarly good for practice, but hacking is completed when other people use what you wrote. That real-world test is important.
   Sometimes (oftener when you are just starting) your patches will be rejected. You need to learn to cope with this. It doesn't mean you're doomed to fail in your quest; usually what it does mean is that you have not read the code carefully enough, or (just as usually) you have missed something important aboout the culture and practices of the developmemt group you are trying to contribute to. These mistakes can be repaired.
  -->
-6. あなたの変更をパッチとしてプログラムのメンテナに送付してください。これを効果的で丁寧に行うための助言については、「ソフトウェアリリースプラクティスハウツー」を参照してください。
+6. あなたの変更をパッチとしてプログラムのメンテナに送付してください。これを効果的で丁寧に行うための助言については、「[ソフトウェアリリースプラクティスハウツー](https://tldp.org/HOWTO/Software-Release-Practice-HOWTO/index.html)」を参照してください。
 
    私は当初、このステップをオプションとして説明しましたが、賢明な友人からオプションにするべきではないと指摘されました。練習のために楽器を一人で演奏することはとても良いことです。しかし、音楽は、その創造性を他の人に聴いてもらうことで完成し、評価されるものなのです。
    コンピュータで一人でプログラミングすることも、同じように良い練習になります。しかし、ハッキングは自分の書いたものを他の人が使って初めて完成します。その現実世界で試されることが大切です。
@@ -238,7 +253,7 @@ To train yourself, start small. If possible, first do the incremental-hacking cy
 自分を鍛えるためには、まずは小さなことから初めること。
 可能であれば、まず、10〜50行程度のとても小さなプログラムやスクリプトで、インクリメンタルハッキングサイクルを訓練として実施してください。
 ほとんどの実用的なプログラムはこれより大きいので、これらを見付けるのが難しいかもしれません。
-このような小さなプログラムのほとんどは、シェルや、Perl、Python、またはTclによるスクリプトです。これは、小さなプログラムをWebで検索するときに、調べるべきの特徴です。
+このような小さなプログラムのほとんどは、シェルや、Perl、Python、またはTclによるスクリプトです。これは、小さなプログラムをWebで検索するときに、調べるべき特徴です。
 
 <!--
 When you have done the incremental-hacking cycle on several very small programs (or if you are unlucky enough to not find any suitable very small ones), try it on slightly larger programs. Look for codebases in the range of 100-500 lines.
@@ -255,7 +270,7 @@ When you master that level, go to the order of magnitude, 1000-5000 lines. By th
 <!--
 At or before the 1K-5K level, you should occasionally begin to notice that you are having itches to change the structure or organization of a program, not just its features. You may find yourself thinking “This code is ugly” and having feelings about making it prettier and cleaner.
  -->
-1000〜5000行のレベルでは、プログラムの機能だけでなく、構造や構成を変更したくなることがあるはずです。「このコードは醜い」と思い、もっと美しく、もっとクリーンにしたいと気持ちになることがあります。
+1000〜5000行のレベルでは、プログラムの機能だけでなく、構造や構成を変更したくなることがあるはずです。「このコードは醜い」と思い、もっと美しく、もっとクリーンにしたいという気持ちになることがあります。
 
 <!--
 When this happens, pay attention. This is your design sense trying to wake up.
@@ -267,18 +282,18 @@ most programs are just too big and messy for gulping them down all at once to wo
 慌てて、別の機能を追加する必要はありません。より高いレベルの変更が必要な、このプログラムの探索を開始しましょう。
 今こそ、すべてのコードを読もうとする良い機会かもしれません。しかし、読めなくても、あまり気にしないでください。
 ほとんどのプログラムは、一度に理解するには、あまりにも大きく、厄介なものです。
-ただ、コードをクリーンにするために知っておく必要なことを把握するように努力してください。
+ただ、コードをクリーンにするために知っておく必要のあることを把握するように努力してください。
 
 <!--
 You are now entering the intermediate portion of learning to hack. This involves not merely changing surface-visible features but doing what is called “refactoring” — reorganizing the code internally so that it is cleaner and has better architecture (better hiding of data, narrower interfaces between different parts, more functional separation among modules).
  -->
 あなたは今、ハッキング学習の中級編に突入しています。
-これは、単に表面的な機能を変更するだけでなく、「リファクタリング」を実施しています。「リファクタリング」は、より綺麗により、良いアーキテクチャ (データの隠蔽化や部品間のインターフェイスの簡潔化やモジュール間の機能分離の推進) になるようにコードを再編成することです。
+これは、単に表面的な機能を変更するだけでなく、「リファクタリング」を実施しています。「リファクタリング」は、より綺麗に、より良いアーキテクチャ (データの隠蔽化や部品間のインターフェイスの簡潔化やモジュール間の機能分離の推進) になるようにコードを再編成することです。
 
 <!--
 Once your design sense (your equivalent of musical ear) is activated, you'll often find that you start refactoring each program you work on as rapidly as the third or fourth time around the incremental-hacking cycle.
  -->
-デザインセンス(音楽分野の音楽を聞く耳に相当) が活性化すると、インクリメンタルハッキングサイクルの3回、4回と繰り返すうちに、各プログラムのリファクタリングを開始することが多いようです。
+デザインセンス(音楽分野の音楽を聞く耳に相当) が活性化すると、インクリメンタルハッキングサイクルを3回、4回と繰り返すうちに、各プログラムのリファクタリングを開始することが多いようです。
 
 <!--
 In fact, this is exactly how skilled hackers normally approach learning the code of large programs — by tinkering and refactoring and rewriting until they grok what is going on. You make small changes in order to learn how to make large ones.
@@ -291,7 +306,7 @@ In fact, this is exactly how skilled hackers normally approach learning the code
  If you successfully refactor three or four large systems, you will not just develop strong programming skills, you will be on your way to something much more rare and powerful: becoming a software architect, one who can do original design of large software systems.
    -->
 もし、あなたが3つか4つの大きなシステムのリファクタリングに成功したなら、
-あなたは単に、協力なプログラミングスキルを身に付けただけではなく、もっと希少で強力な何かへの道を進んでいるでしょう。ソフトウェアアーキテクト、つまり大規模なソフトウェアシステムの独自設計をできる人になる道です。
+あなたは単に、協力なプログラミングスキルを身に付けただけではなく、もっと希少で強力な何かへの道を進んでいるでしょう。それはソフトウェアアーキテクト、つまり大規模なソフトウェアシステムの独自設計をできる人になる道です。
 
 <!--
 This is the only way I know of for fledgling software architects to train their design sense. It may be the only way there is.
@@ -301,7 +316,7 @@ This is the only way I know of for fledgling software architects to train their 
 <!--
 ## Being original
  -->
-## 独創的であるこ
+## 独創的であること
 
 <!--
 In my analogy with music, I said that you eventually need to learn how to recombine musical patterns (which you have learned by listening to music and practicing performance) into original compositions. I chose that way of describing creativity carefully, because it applies to software even more than it does to music.
@@ -312,7 +327,7 @@ In my analogy with music, I said that you eventually need to learn how to recomb
 <!--
 Before you have read and absorbed the lessons of a lot of code, you will probably not have in your head the pattern library you need to be creative on scales larger than very small ones. One purpose of doing the incremental-hacking cycle is to immerse yourself in a lot of code — at increasing complexity scales — under circumstances that provide you with motivation to keep reading.
  -->
-多くのコードを読み、その教訓を吸収しなければ、小規模より大きなプログラムを創造するために必要なパターンライブラリは身に付いていないでしょう。
+多くのコードを読み、その教訓を吸収しなければ、より大きなプログラムを創造するために必要なパターンは身に付いていないでしょう。
 インクリメンタルハッキングサイクルの目的の一つは、コードを読むモチベーションを維持できる環境下で、複雑さの規模を拡大しながら、多くのコードに没頭することです。
 
 <!--
@@ -320,7 +335,7 @@ Eventually you will lead group projects and do entirely original work. Do not fe
  -->
 最終的には、グループプロジェクトのリーダーとして、完全にオリジナルな仕事をするようになります。
 これを急いだり、無理強いしたりする必要はありません。
-もし、あなたのスキルが成熟する時間をを与えるなら、あなたの最初のオリジナル作品はより良いものになるでしょう。
+もし、あなたのスキルの成熟に時間ををかけるなら、あなたの最初のオリジナル作品はより良いものになるでしょう。
 既存のオープンソースプロジェクトに効果的に貢献することで、あなた自身のプロジェクトを運営するためのスキル (コミュニケーションスキルを含む) を学ぶことができます。
 
 ---
